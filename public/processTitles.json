@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1752668328123,
+    "title": "C/A02",
+    "x": 200,
+    "y": 100,
+    "history": [],
+    "productionBlocks": [{ "id": 1752668328130, "yieldValue": "", "secondValue": "" }],
+    "maintenanceHistory": []
+  },
+  {
+    "id": 1752668328124,
+    "title": "C/A03", 
+    "x": 400,
+    "y": 100,
+    "history": [],
+    "productionBlocks": [{ "id": 1752668328131, "yieldValue": "", "secondValue": "" }],
+    "maintenanceHistory": []
+  },
+  {
+    "id": 1752668328125,
+    "title": "C/A04",
+    "x": 600,
+    "y": 100, 
+    "history": [],
+    "productionBlocks": [{ "id": 1752668328132, "yieldValue": "", "secondValue": "" }],
+    "maintenanceHistory": []
+  },
+  {
+    "id": 1752668328126,
+    "title": "CCM01",
+    "x": 200,
+    "y": 300,
+    "history": [],
+    "productionBlocks": [{ "id": 1752668328133, "yieldValue": "", "secondValue": "" }],
+    "maintenanceHistory": []
+  },
+  {
+    "id": 1752668328127,
+    "title": "CCM02",
+    "x": 400,
+    "y": 300,
+    "history": [],
+    "productionBlocks": [{ "id": 1752668328134, "yieldValue": "", "secondValue": "" }],
+    "maintenanceHistory": []
+  }
+] 

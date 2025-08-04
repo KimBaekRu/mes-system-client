@@ -1,0 +1,7875 @@
+[
+  {
+    "id": 1752570747821,
+    "name": "FUD117",
+    "iconUrl": "/images/STRIP.png",
+    "x": 450,
+    "y": -940,
+    "status": "running",
+    "history": [
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:12:31.867Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:12:33.113Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:12:36.680Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:13:52.198Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:14:47.025Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:16:35.400Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:16:37.358Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:16:38.636Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:18:53.566Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:18:53.701Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:18:57.323Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:18:59.633Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:19:23.216Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:28:17.044Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:28:42.103Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:28:44.207Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:28:45.354Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:28:56.775Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T09:29:05.618Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T20:21:42.925Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T20:23:29.594Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T20:26:20.336Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-15T20:29:48.157Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:08:07.791Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:08:07.826Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:08:08.005Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:16:32.495Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:16:40.999Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:16:41.139Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:16:43.678Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:16:44.966Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:16:46.326Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:16:46.569Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:16:46.925Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:16:47.096Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:17:56.903Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:18:21.188Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:18:21.697Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:18:21.856Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:18:25.152Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:19:21.149Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:19:22.073Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:19:22.215Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:19:50.565Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:20:16.359Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:20:17.615Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:20:17.926Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:20:18.216Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:20:19.900Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:20:22.781Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:20:25.767Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:25:28.531Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:25:30.325Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:25:31.405Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:25:47.590Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:29:15.160Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:29:16.169Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:38:29.225Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:39:33.334Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:39:33.519Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:39:34.839Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:41:34.911Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:41:35.026Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:41:35.605Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:41:35.787Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:41:36.274Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:41:36.456Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:41:36.769Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:41:36.958Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:41:39.262Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:41:39.885Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:41:40.025Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:41:41.560Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:43:16.794Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:43:16.978Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:43:24.666Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:43:25.526Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:44:02.216Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:44:02.364Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:44:03.478Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:45:12.737Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:45:16.363Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:45:19.533Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:45:24.871Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:45:26.706Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:45:27.190Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:45:27.361Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:45:28.306Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:47:48.029Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:47:48.140Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:47:48.809Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:47:49.084Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:58:16.183Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:58:16.738Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:58:16.877Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:58:20.079Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:59:48.727Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:59:48.864Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:59:49.565Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:59:50.239Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T06:59:51.794Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:11:48.306Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:11:48.834Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:11:48.971Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:11:49.957Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:12:01.444Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:12:01.570Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:12:06.623Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:12:10.551Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:12:10.694Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:12:36.288Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:12:36.480Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:12:37.129Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:12:37.272Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:38:43.485Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:38:45.266Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:38:45.690Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:38:45.833Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:38:47.216Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:38:48.253Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:38:48.451Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:38:52.380Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:38:52.524Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:39:07.295Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:39:07.414Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:39:14.585Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:39:14.966Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:39:15.288Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:39:15.430Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:41:15.254Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:41:15.668Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:41:15.831Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:41:20.484Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:41:20.615Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:41:30.615Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:52:08.648Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:52:08.781Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:52:10.477Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T07:55:43.205Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T08:54:10.779Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T08:54:10.928Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T08:54:11.470Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T08:54:11.624Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T08:54:14.675Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T08:54:14.812Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T08:54:19.250Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T08:54:19.403Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:44:01.300Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:44:01.448Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:46:32.334Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:46:32.503Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:46:53.705Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:46:53.835Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:47:04.652Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:47:04.781Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:47:25.503Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:47:25.632Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:49:23.163Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:49:23.312Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:49:26.321Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:49:26.472Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:51:46.729Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:51:46.921Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:51:47.507Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:51:47.681Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:51:51.142Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:51:53.161Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:51:53.290Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:54:05.142Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:54:05.338Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:54:33.107Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:54:33.263Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:54:36.571Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:54:36.704Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:54:40.302Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:54:42.789Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:54:42.936Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:57:39.153Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:57:44.578Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T09:57:44.722Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:00:15.249Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:00:17.122Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:00:25.890Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:00:26.276Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:00:26.693Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:00:29.395Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:00:29.536Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:00:30.486Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:02:16.856Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:02:16.996Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:02:49.333Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:02:51.469Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:02:51.641Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:04:40.095Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:04:40.241Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:05:14.678Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:05:14.823Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:05:16.213Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:07:56.696Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:06.072Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:06.191Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:10.865Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:11.091Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:14.951Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:15.101Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:19.933Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:20.074Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:10:08.446Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:10:21.339Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:10:23.627Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:12:44.184Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:12:45.267Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:12:45.687Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:12:45.822Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:12:55.606Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:18:19.315Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:29:55.326Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:29:56.788Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:29:58.840Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:30:19.380Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:30:23.687Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:30:26.710Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:30:28.871Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:30:38.301Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:31:49.618Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:21.451Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:24.092Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:32.259Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:32.379Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:38.334Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:38.470Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:50.834Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:51.834Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:51.972Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:09.061Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:09.468Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:09.621Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:13.860Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:14.311Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:14.695Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:14.824Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:17.636Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:18.144Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:18.298Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:21.098Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:21.573Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:21.723Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:35.069Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:35.196Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:41.856Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:41.993Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:44.254Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:45.919Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:46.076Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:55.528Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:55.640Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:57.843Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:00.726Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:08.823Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:08.975Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:28.608Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:28.772Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:35:09.890Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:35:10.022Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:00:33.699Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:00:35.169Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:12:50.603Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:14:38.638Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:14:39.166Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:14:39.305Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:16:07.096Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:16:07.212Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:16:53.611Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:14.931Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:17.451Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:59.444Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:59.575Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T13:43:36.885Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T13:43:36.898Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:00:39.316Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:50.618Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:58.221Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:58.234Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:58.788Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:03.793Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:04.432Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:04.450Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:04.944Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:11.473Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:11.483Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:11.957Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:33.427Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:37.238Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:37.264Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:25:16.727Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:25:19.472Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:48:02.627Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:18:02.227Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:31:42.302Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:31:46.161Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:31:59.750Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:32:00.624Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:37:02.071Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:38:05.837Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:38:06.606Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:40:53.030Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:40:53.765Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:41:16.686Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:43:14.663Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:43:16.242Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:45:38.954Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:47:39.996Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:47:41.947Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:47:42.472Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:47:43.100Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T20:24:36.371Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:36:52.039Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:06:11.409Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:06:12.445Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:06:13.158Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:10:13.912Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:10:29.565Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:10:30.529Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:11:43.168Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:11:43.886Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:12:38.962Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:12:40.023Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:12:41.623Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:14:01.446Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:15:30.045Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:23:54.615Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:23:58.377Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:36:49.060Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:41:49.438Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:44:40.839Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:44:41.900Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:11.566Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:18.286Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:46:45.293Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:46:48.375Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:46:53.965Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:47:00.257Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T08:48:50.727Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T09:31:41.597Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T09:31:44.942Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T09:31:46.747Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T09:31:47.321Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T09:31:48.591Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T09:31:50.376Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T09:32:04.734Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T09:32:06.428Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T09:32:26.777Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:24:06.717Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:24:07.306Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:24:10.169Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:24:10.842Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:25:45.828Z",
+        "value": "running"
+      }
+    ],
+    "memo": "\n",
+    "options": [
+      "2565LD",
+      "2670LD",
+      "3105LD",
+      "4509LD"
+    ],
+    "selectedOption": ""
+  },
+  {
+    "id": 1752660305559,
+    "name": "FUD110",
+    "iconUrl": "/images/STRIP.png",
+    "x": 380,
+    "y": -940,
+    "status": "maint",
+    "history": [
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:05:09.402Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:05:10.677Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:05:11.860Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:05:13.253Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:05:13.386Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:05:16.652Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:07:18.700Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:07:50.980Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:07:51.953Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:07:52.429Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:07:52.995Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:07:53.318Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:07:53.503Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:07:57.021Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:07:57.736Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:07:58.850Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:01.535Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:01.680Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:03.093Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:03.253Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:03.837Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:03.986Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:04.468Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:08.039Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:08.218Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:12.536Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:12.691Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:20.814Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:20.966Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:32.573Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:08:32.930Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:10:00.708Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:10:02.553Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:10:04.756Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:10:09.558Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:10:15.134Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:10:27.093Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:10:30.670Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:12:40.997Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:12:41.500Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:12:43.088Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:12:47.198Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:12:47.329Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:12:50.878Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:18:20.478Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:21:09.329Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:21:11.169Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:21:11.966Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:21:12.506Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:21:13.755Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:23:51.222Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:24:00.798Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:24:46.262Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:24:47.545Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:25:10.078Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:25:11.265Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:25:56.049Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:25:56.578Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:26:19.559Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:26:20.764Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:30:31.154Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:33.322Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:33.479Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:39.477Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:39.599Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:24.708Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:36.620Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:36.806Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:40.695Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:40.849Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:46.757Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:47.038Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:47.405Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:47.570Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:53.482Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:53.637Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:56.477Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:56.638Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:01.916Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:03.802Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:05.417Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:09.744Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:09.880Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:29.316Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:29.457Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:55.437Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:59.250Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:59.414Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:35:08.345Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:35:08.471Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:12:54.142Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:12:54.284Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:14:40.418Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:14:40.717Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:18:06.416Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:18:08.793Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:43:21.845Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:16:55.506Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:16:57.235Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:18.987Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:57.350Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:57.477Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:20:00.419Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:20:00.562Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T13:43:37.235Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T13:43:37.466Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:00:36.445Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:32.205Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:36.036Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:36.046Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:36.677Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:41.148Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:41.157Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:41.767Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:46.183Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:46.208Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:46.600Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:50.149Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:50.167Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:18.123Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:18.135Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:29.137Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:29.365Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:32.823Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:32.848Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:25:13.105Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:41:58.568Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:42:04.238Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:04:57.308Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:04:58.065Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:18:15.454Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:31:08.294Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:31:43.842Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:32:01.587Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:32:01.925Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:41:17.176Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:45:39.569Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:48:35.335Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:48:51.114Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:48:56.140Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:49:12.858Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T20:24:33.970Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:36:49.270Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:41:50.158Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:12.827Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:19.062Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T09:33:31.211Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T07:49:46.422Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:01:05.230Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:33:47.352Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T11:05:59.600Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T12:14:48.498Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:25:46.616Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T06:12:20.695Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T06:12:41.654Z",
+        "value": "maint"
+      }
+    ],
+    "memo": "[?�비?�력] 23:00~01:00 ?�비멈춤\n[?�비?�력] 09:00~10:00 ?�비멈춤\n[추�?] 10:30~11:00 ?�비멈춤\n[?�비?�력] 23:00~01:00 ?�비멈춤",
+    "options": [
+      "2565LD",
+      "2670LD",
+      "3105LD",
+      "4509LD"
+    ],
+    "selectedOption": "3105LD"
+  },
+  {
+    "id": 1752661903897,
+    "name": "FUD120",
+    "iconUrl": "/images/STRIP.png",
+    "x": 310,
+    "y": -940,
+    "status": "maint",
+    "history": [
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:30.148Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:30.938Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:31.055Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:37.001Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:37.140Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:41.398Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:41.598Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:43.723Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:43.863Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:52.608Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:52.738Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:56.435Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:57.723Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:58.239Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:32:58.393Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:02.103Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:03.455Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:03.602Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:06.141Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:06.301Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:20.874Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:25.780Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:26.252Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:26.393Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:28.382Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:30.012Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:32.550Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:33.001Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:33.142Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:39.038Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:39.395Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:39.549Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:48.188Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:48.339Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:49.837Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:50.477Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:50.923Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:51.666Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:51.869Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:52.268Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:52.412Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:54.094Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:54.281Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:57.098Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:33:57.247Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:07.262Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:10.566Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:10.721Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:14.846Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:15.762Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:15.918Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:16.529Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:16.686Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:17.012Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:17.171Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:17.536Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:18.739Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:20.160Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:20.519Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:20.876Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:21.024Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:21.468Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:21.685Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:21.847Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:25.470Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:25.969Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:29.918Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:30.052Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:35:00.613Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:35:00.756Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:35:06.824Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:35:06.971Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:37:01.274Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:41:52.595Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:41:52.756Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:11.093Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:12.439Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:13.104Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:13.593Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:14.949Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:15.492Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:16.125Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:16.608Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:17.367Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:18.254Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:00:30.448Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:00:31.701Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:12:54.858Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:12:54.991Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:14:41.308Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:14:41.410Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:16:07.723Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:16:07.866Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:17:35.575Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:57.731Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:57.859Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:16:54.844Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:16:59.116Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:17:00.139Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:17:01.904Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:21.121Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:26.302Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:30.803Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:30.952Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:36.567Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:37.740Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:37.892Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:44.718Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:44.865Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:47.458Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:49.129Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:56.091Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:56.218Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:20:00.972Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:20:01.116Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T13:43:37.698Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T13:43:37.847Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:01:10.458Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:59.345Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:07.096Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:07.125Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:07.687Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:12.313Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:12.324Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:12.706Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:13.092Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:14.052Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:14.095Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:14.763Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:20.793Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:20.850Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:21.276Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:26.656Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:27.054Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:27.094Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:27.483Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:31.513Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:14:31.537Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:17.353Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:17.381Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:24.988Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:28.784Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:28.818Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:25:03.622Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:25:06.860Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:25:10.174Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:31:44.692Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:37:00.181Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:41:47.030Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:41:47.163Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:45:40.058Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:47:51.729Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:47:55.629Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T20:24:31.060Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T20:24:32.577Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:36:47.674Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:11:45.519Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:11:46.387Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:13.296Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:19.574Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T07:51:53.279Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T07:53:45.109Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T07:57:49.126Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:01:05.833Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:01:06.220Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:01:06.673Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:01:21.822Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:03:48.553Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:04:03.041Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:07:09.552Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:09:38.851Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:09:39.556Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:09:56.596Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:12:07.412Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:12:16.196Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:12:17.060Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:13:58.302Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:14:01.204Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:15:10.723Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:15:16.978Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:17:08.596Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:17:10.666Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:44:47.459Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:45:05.190Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:25:40.122Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:25:40.156Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:25:42.642Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:25:42.796Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:25:47.145Z",
+        "value": "maint"
+      }
+    ],
+    "memo": "[?�비?�력] 09:00~09:30 ?�비멈춤\n[?�비?�력] 09:00~10:00 ?�비멈춤\n[추�?] 10:30~11:00 ?�비멈춤",
+    "options": [
+      "2565LD",
+      "2670LD",
+      "3105LD",
+      "4509LD"
+    ],
+    "selectedOption": "3105LD"
+  },
+  {
+    "id": 1752662081009,
+    "name": "FUD121",
+    "iconUrl": "/images/STRIP.png",
+    "x": 240,
+    "y": -940,
+    "status": "running",
+    "history": [
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:44.925Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:46.492Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:46.874Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:47.032Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:48.904Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:51.094Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:51.619Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:51.774Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:53.941Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:54.347Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:54.491Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:56.095Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:56.240Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:57.698Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:58.137Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:34:58.273Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:35:05.259Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:35:05.409Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:40:08.864Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:40:09.596Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:40:10.631Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:40:16.218Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:40:16.772Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:40:17.518Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:41:51.413Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:41:51.586Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:02.697Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:04.831Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:07.437Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:30.268Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:32.352Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:34.452Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:36.387Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:56:24.364Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:12:55.456Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:12:55.586Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:14:42.214Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:14:42.339Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:16:08.334Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:16:08.500Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:17:33.717Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:20:32.860Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:43:14.582Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:08:36.622Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:56.390Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:58.208Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:58.379Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:17:03.774Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:17:05.701Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:24.828Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:31.743Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:35.356Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:36.979Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:37.096Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:38.865Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:39.719Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:41.786Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:43.132Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:44.047Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:44.157Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:46.827Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:50.432Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:54.550Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:54.662Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:20:01.558Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:20:02.056Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:20:02.199Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:23:11.175Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:23:18.044Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T13:43:34.117Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T13:43:34.411Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:31.911Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:39.656Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:39.684Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:40.188Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:44.948Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:44.961Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:45.538Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:50.626Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:50.646Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:51.455Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:51.751Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:58.886Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:58.918Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:16.218Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:16.226Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:19.194Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:24.455Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:15:24.483Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:20:43.248Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:20:53.239Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:31:48.413Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:31:53.453Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:37:00.646Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:37:01.284Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:37:01.617Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:41:46.590Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:45:40.497Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T20:24:29.895Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:36:45.863Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:47:06.918Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:24:04.762Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:24:05.330Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:25:47.902Z",
+        "value": "running"
+      }
+    ],
+    "memo": "",
+    "options": [
+      "2565LD",
+      "2670LD",
+      "3105LD",
+      "4509LD"
+    ],
+    "selectedOption": "2565LD"
+  },
+  {
+    "id": 1752662502454,
+    "name": "FUD119",
+    "iconUrl": "/images/STRIP.png",
+    "x": 170,
+    "y": -940,
+    "status": "stopped",
+    "history": [
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:41:49.312Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:41:49.962Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:41:50.258Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:41:55.955Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:41:57.355Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:01.180Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:02.191Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:04.900Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:42:06.289Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:07.562Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:08.688Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:10.417Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:12.272Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:12.945Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:14.500Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:15.221Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:16.624Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:18.029Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:19.588Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:20.786Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:22.088Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:22.777Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:24.233Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:24.707Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:25.387Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:27.271Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:27.850Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:29.092Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:29.794Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:49:31.020Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:42.074Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:44.349Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:46.353Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:48.095Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:50.100Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:52.893Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:55.424Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:50:58.150Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:51:00.935Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:51:04.798Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:51:07.156Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T10:51:09.468Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:09:57.695Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:09:59.388Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:09:59.813Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:14:42.899Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:14:43.059Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T11:16:08.965Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:14.355Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:49.755Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:50.134Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:50.280Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:55.091Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:55.598Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:55.747Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:58.815Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:12:58.968Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:17:07.624Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:21.143Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:23.655Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:27.168Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:28.848Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:34.212Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:51.758Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:52.899Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:19:53.029Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:20:02.614Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T12:20:02.754Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T13:43:35.263Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-16T13:43:35.320Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T06:16:19.217Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T06:17:16.763Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T06:19:18.733Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T06:51:35.939Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T06:52:04.722Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:08:08.975Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:10:13.385Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:10:30.137Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:10:46.011Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:11:48.208Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:19:15.569Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:22:37.165Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:26:04.593Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:26:18.202Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:26:31.106Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:27:07.587Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:29:52.325Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:30:16.916Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:37:40.441Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:42:02.227Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:42:44.744Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:43:57.267Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:44:01.878Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:44:16.605Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:44:29.168Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:45:54.854Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:46:08.361Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:46:08.375Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:49:27.351Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:49:46.096Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:49:46.104Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:51:20.937Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:51:28.760Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:51:37.740Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:51:54.627Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:52:13.559Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:52:22.906Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:52:37.838Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:53:02.845Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T07:53:18.673Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:12:46.893Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:08.185Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:08.193Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:09.162Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:16.418Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:16.426Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:16.969Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:22.334Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:22.711Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:22.727Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:23.197Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:31.108Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:13:31.124Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:16:05.228Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:16:07.566Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:16:09.036Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:16:12.048Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:16:13.376Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:16:15.150Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:16:17.379Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:16:48.613Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:16:50.487Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:20:24.703Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T08:20:26.431Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:18:00.672Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:31:49.234Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:31:54.694Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:31:55.346Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:36:58.218Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:36:58.890Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:36:59.643Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:38:08.058Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:38:08.887Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:41:06.260Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:45:40.868Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T20:24:27.245Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T20:36:34.703Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T20:36:34.846Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:36:44.050Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:44:42.255Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:44:44.195Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:44:45.222Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:25:48.517Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T01:25:48.658Z",
+        "value": "stopped"
+      }
+    ],
+    "memo": "[?�비?�력] 09:00~09:30 ?�비멈춤\n[추�?] 10:00~10:30 ?�비멈춤\n[?�비?�력] 10:00~10:30 ?�로그램 멈춤\n[추�?] 11:00~11:30 ?�로그램 멈춤",
+    "options": [
+      "2565LD",
+      "2670LD",
+      "3105LD",
+      "4509LD"
+    ],
+    "selectedOption": "2670LD"
+  },
+  {
+    "id": 1752748722717,
+    "name": "CCM",
+    "iconUrl": "/images/CCM1.png",
+    "x": 590,
+    "y": -800,
+    "status": "stopped",
+    "history": [
+      {
+        "user": "unknown",
+        "time": "2025-07-17T10:38:47.340Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T10:38:49.761Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T10:38:54.559Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T10:38:58.571Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T10:39:47.718Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:05:04.688Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:05:09.130Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:41:45.039Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:41:48.382Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:44:43.358Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:44:43.980Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:44:44.410Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:44:47.611Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:46:24.341Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:46:25.729Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:46:26.643Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:46:35.914Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:46:35.924Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:46:36.490Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:46:41.461Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:46:41.488Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:46:45.101Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:46:50.541Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:46:58.913Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:47:58.749Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:53:16.533Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:56:38.426Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:58:24.147Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:58:32.798Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:58:37.028Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T11:58:39.081Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:01:54.171Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:01:55.622Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:13:17.768Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:13:18.232Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:18:23.469Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:19:41.777Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:22:14.378Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:22:14.821Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:31:47.211Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:37:03.458Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:40:50.802Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:41:14.324Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:43:11.055Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:43:11.905Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:43:13.072Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:43:13.411Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:43:13.937Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:43:17.124Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:45:08.460Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:47:36.843Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T12:47:38.092Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-17T20:24:38.281Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:36:53.753Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:44:47.744Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:44:49.751Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:44:50.617Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:44:57.540Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:44:58.305Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:45:06.402Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:45:06.413Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:47:57.237Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:48:08.347Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:54:12.280Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:54:25.839Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:54:31.324Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T05:54:34.869Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:02:13.102Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:02:13.859Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:03:34.088Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:03:54.907Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:03:56.675Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:03:57.761Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:03:59.156Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:04:01.626Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:05:57.511Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:06:01.696Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:06:02.907Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:06:03.413Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:06:03.665Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:06:05.444Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:06:14.491Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:06:15.123Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:06:32.356Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:08:18.929Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:08:20.153Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:12:32.852Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:12:33.440Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:12:33.990Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:12:34.674Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:12:36.599Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:12:37.348Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:15:14.257Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:15:33.479Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:15:36.729Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:19:19.347Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:19:20.221Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:19:23.704Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:19:26.377Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:19:28.299Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:19:29.170Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:19:31.083Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:19:32.100Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:19:33.666Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:19:35.871Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:19:35.882Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:21:45.693Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:21:47.005Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:21:51.053Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:21:53.060Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:21:56.389Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:21:58.960Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:22:01.813Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:22:03.625Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:24:00.285Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:24:01.033Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:24:01.914Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:24:05.949Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:27:31.570Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:27:32.487Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:27:48.111Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:27:48.843Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:27:48.862Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:32:50.994Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:32:52.767Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:32:57.500Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:33:03.021Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:36:50.559Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:36:51.820Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:40:57.761Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:40:58.757Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:40:59.832Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:41:03.697Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:41:13.507Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:41:13.515Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:41:36.322Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:41:37.649Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:41:43.367Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:41:43.392Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:41:46.800Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:41:52.312Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:41:53.494Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:42:00.440Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:44:37.117Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:44:39.522Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:44:40.191Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:44:43.402Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:44:44.862Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:44:46.868Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:44:47.435Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:44:48.140Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:44:49.436Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:47:49.884Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:47:50.546Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:47:50.998Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:50:48.748Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:50:49.972Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:50:50.869Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:55:24.198Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T06:55:24.968Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:04:03.109Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:04:04.244Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:06:13.675Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:06:14.579Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:06:20.322Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:09:07.170Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:09:08.074Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:11:59.763Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:12:00.466Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:12:21.821Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:18:38.494Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:18:39.320Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:18:58.650Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:18:59.560Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:19:00.279Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:19:01.262Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:19:15.880Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:19:18.463Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:21:20.632Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:21:21.441Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:21:24.988Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:21:29.345Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:21:48.337Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:21:50.033Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:21:54.271Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:21:55.888Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:24:51.644Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:24:52.634Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:24:56.854Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:34:45.240Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:34:48.014Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:34:48.030Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:34:48.837Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:34:52.454Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:35:31.940Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:35:31.957Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:36:51.364Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:36:52.314Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:39:31.434Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:39:32.331Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:39:35.130Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:39:37.124Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:01.800Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:02.757Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:09.961Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:11.069Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:15.091Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:17.495Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:43:20.876Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:45:00.783Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:45:01.509Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:45:01.999Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:45:06.116Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:45:37.371Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:45:38.002Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:45:38.690Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:46:02.068Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:46:02.769Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:46:29.821Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:46:30.506Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:46:34.219Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-18T07:46:34.243Z",
+        "value": "stopped"
+      }
+    ],
+    "options": [
+      "2566LD",
+      "4509LD"
+    ],
+    "selectedOption": "2566LD",
+    "imgWidth": 287,
+    "imgHeight": 111.60000610351562
+  },
+  {
+    "id": 1752911319968,
+    "name": "FUD110",
+    "iconUrl": "/images/STRIP.png",
+    "x": 310,
+    "y": 250,
+    "status": "maint",
+    "history": [
+      {
+        "user": "unknown",
+        "time": "2025-07-19T07:49:16.141Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T07:49:18.269Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T07:49:19.871Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T07:51:06.058Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:44.617Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:45.215Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:51.608Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:52.145Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:00.705Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:01.625Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:03.976Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:03.993Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:04.730Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:07.900Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:11.594Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:13.070Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:13.944Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:18.693Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:18.708Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:19.188Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:22.598Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:22.612Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:23.085Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:26.751Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:30.969Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:30.978Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:33.258Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:35.579Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:36.127Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:36.523Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:40.916Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:35.672Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:37.701Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:41.299Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:41.314Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:41.956Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:43.235Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:44.837Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:45.527Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:47.281Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:47.289Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:17:23.626Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:17:25.148Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:17:25.988Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:17:27.955Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:17:27.974Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:18:03.684Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:18:04.452Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:19:01.810Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:19:01.833Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:19:06.930Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:19:07.631Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:19:08.217Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:19:08.764Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:35.191Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:35.210Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:42.967Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:45.959Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:45.991Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:47.478Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:48.629Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:50.223Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:50.242Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:51.256Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:52.608Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:52.655Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:53.324Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:54.174Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:56.629Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:20:56.646Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:22:09.075Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:22:10.054Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:22:27.964Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:22:28.955Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:22:28.985Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:22:29.682Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:22:30.960Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:22:33.199Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:22:33.208Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:23:23.335Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:23:24.040Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:23:24.939Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:23:27.137Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:23:27.170Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:23:38.828Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:23:39.251Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:23:51.568Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:23:51.782Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:23:53.303Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:23:54.686Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:23:54.715Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:24:30.120Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:24:31.586Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:24:34.759Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:24:34.783Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:24:35.567Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:24:36.667Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:24:40.295Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:24:40.306Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:26:12.308Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:26:13.772Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:28:57.299Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:28:58.188Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:28:59.798Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:28:59.811Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:29:01.208Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:29:04.553Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:29:06.094Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:29:06.112Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:29:36.471Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:29:37.629Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:29:41.214Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:29:41.241Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:29:42.258Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:29:44.198Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:29:44.226Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:29:46.361Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:39.729Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:40.666Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:44.564Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:44.583Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:45.641Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:47.895Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:47.916Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:48.755Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:49.946Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:53.774Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:55.425Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:55.452Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:30:56.806Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:31:28.711Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:31:29.429Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:31:35.179Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:31:56.228Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:31:57.020Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:31:59.534Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:31:59.551Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:32:02.160Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:32:03.830Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:32:06.260Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:32:06.275Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:32:27.327Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:32:42.827Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:33:47.338Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T10:21:45.971Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T10:21:47.921Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T10:34:08.176Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T10:34:09.883Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T10:34:11.124Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T10:34:14.066Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T10:34:16.253Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T10:35:53.721Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T10:35:55.292Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T10:36:33.789Z",
+        "value": "stopped"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T10:36:38.075Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T11:05:59.585Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T11:07:45.464Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T11:07:46.654Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T11:07:47.173Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T11:07:47.643Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T12:14:48.487Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T12:15:28.920Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T02:10:01.725Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T02:10:01.882Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T02:10:03.767Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T02:10:04.566Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T02:10:07.706Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T02:10:07.722Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T02:10:08.734Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T02:10:10.102Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T02:10:10.121Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:01:43.096Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:01:44.868Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:01:48.280Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:01:48.315Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:01:49.602Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:01:50.019Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:01:50.457Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:01:52.323Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:01:52.346Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:02:15.208Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T05:57:29.083Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T05:57:30.789Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T05:57:34.104Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T05:57:35.065Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T05:57:35.098Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T06:12:20.728Z",
+        "value": "maint"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T06:12:41.613Z",
+        "value": "maint"
+      }
+    ],
+    "options": [
+      "2566LD",
+      "4509LD",
+      "3103LD",
+      "2565LD"
+    ],
+    "selectedOption": "3103LD",
+    "imgWidth": 57,
+    "imgHeight": 65,
+    "memo": "[?�비?�력] 09:00~10:00 ?�비멈춤\n[추�?] 10:30~11:00 ?�비멈춤\n[?�비?�력] 23:00~01:00 ?�비멈춤"
+  },
+  {
+    "id": 1752913425701,
+    "name": "FUD120",
+    "iconUrl": "/images/STRIP.png",
+    "x": 240,
+    "y": 250,
+    "status": "running",
+    "history": [
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:23:47.371Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:23:48.305Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:23:49.154Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:23:52.593Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:23:52.620Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:23:53.269Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:23:54.264Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:23:55.769Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:23:55.791Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:05.245Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:06.679Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:10.684Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:11.638Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:11.664Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:12.522Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:13.308Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:16.294Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:16.304Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:17.095Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:18.242Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:19.248Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:20.920Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:20.938Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:22.606Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:24:23.650Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:26:05.110Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:26:07.204Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:28:26.497Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:28:27.958Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:28:27.984Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:28:42.655Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:28:43.620Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:28:50.729Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:28:58.060Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:28:58.086Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:30:18.712Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:30:19.964Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:31:26.188Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:31:27.887Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:31:33.125Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:31:33.133Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:31:34.770Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:36:26.084Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:36:50.436Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:37:08.914Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:37:29.284Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:37:43.382Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:37:49.262Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:37:49.282Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:37:50.263Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:37:50.983Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:38:18.345Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:38:20.672Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:38:37.929Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:38:59.351Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:38:59.678Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:39:01.670Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:39:19.775Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:39:21.682Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:39:24.293Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:39:26.438Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:39:26.776Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:39:27.654Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:39:27.678Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:39:29.601Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:39:30.876Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:42:03.919Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:42:04.913Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:42:39.702Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:42:40.850Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:43:01.087Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:43:01.832Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:43:08.771Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:43:09.755Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:43:09.775Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:43:30.749Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:43:31.401Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:43:56.005Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:43:56.990Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:44:16.240Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:44:16.905Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:44:22.996Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:44:23.006Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:44:23.705Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:44:24.738Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:44:26.390Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:44:26.412Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:44:47.440Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T08:45:05.158Z",
+        "value": "idle"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:02:51.172Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:01.096Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:01.713Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:02.563Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:27.676Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:28.500Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:28.514Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:29.110Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:29.315Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:33.165Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:33.175Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:33.781Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:39.114Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:39.123Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:39.507Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:44.082Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:44.090Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:48.215Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:49.759Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:57.576Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:03:59.079Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:34.050Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:04:43.580Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:09:56.253Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:09:57.043Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:03.209Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:03.626Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:04.775Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:05.232Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:11.198Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:12.899Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:13.853Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:14.195Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:14.780Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:21.197Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:21.207Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:47.001Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:51.404Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:10:56.615Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:13:14.665Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:28.450Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:33.360Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:38.310Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:39.332Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:43.246Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:43.265Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:43.961Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:45.116Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:45.265Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:45.982Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:48.821Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:48.841Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:49.996Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:14:53.471Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:21.257Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:22.288Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:24.102Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:24.117Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:24.908Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:25.551Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:27.145Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:27.164Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:27.765Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:28.615Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:30.014Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:30.606Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:33.119Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:33.131Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:16:34.256Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:17:28.691Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:17:30.106Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:17:30.970Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:17:33.205Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:17:34.106Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:17:34.137Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-19T09:32:47.687Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T02:10:02.488Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T02:10:02.639Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:02:16.864Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:02:17.908Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:02:21.977Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:02:23.349Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:02:23.375Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:02:24.381Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:02:26.490Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:02:26.506Z",
+        "value": "running"
+      },
+      {
+        "user": "unknown",
+        "time": "2025-07-20T03:02:55.024Z",
+        "value": "running"
+      }
+    ],
+    "imgWidth": 57,
+    "imgHeight": 65,
+    "memo": "[?�비?�력] 09:00~10:00 ?�비멈춤\n[추�?] 10:30~11:00 ?�비멈춤",
+    "options": [
+      "2565LD",
+      "4509LD",
+      "2566LD",
+      "3103LD",
+      "3158LD"
+    ],
+    "selectedOption": "2566LD"
+  }
+]

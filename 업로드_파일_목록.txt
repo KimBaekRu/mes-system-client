@@ -1,0 +1,29 @@
+📁 GitHub에 업로드할 파일들:
+
+✅ 루트 폴더:
+- package.json
+- vercel.json
+- .gitignore
+
+✅ src 폴더:
+- App.js (메인 파일)
+- index.js
+- 
+✅ src/backend 폴더:
+- server.js
+- package.json
+- railway.json
+- .gitignore
+- processTitles.json
+- lineNames.json
+- users.json
+- equipments.json
+
+✅ public 폴더:
+- index.html
+- 기타 public 파일들
+
+❌ 업로드 제외:
+- node_modules/ (용량 큼, 자동 설치됨)
+- pnpm-lock.yaml (선택적)
+- .cursor/, .continue/ (에디터 설정)
