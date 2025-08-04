@@ -19,9 +19,17 @@ app.use(helmet({
 app.use(compression());
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://web-mes-frontend.vercel.app', 'https://web-mes-frontend-git-main.vercel.app']
+    ? [
+        'https://web-mes-frontend.vercel.app',
+        'https://web-mes-frontend-git-main.vercel.app',
+        /^https:\/\/web-mes-frontend-.*\.vercel\.app$/,
+        'https://localhost:3000',
+        'http://localhost:3000'
+      ]
     : '*',
-  credentials: true
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
 }));
 
 // Rate limiting - 50명 동시 접속 고려
@@ -42,9 +50,16 @@ const server = http.createServer(app);
 const io = socketio(server, { 
   cors: { 
     origin: process.env.NODE_ENV === 'production' 
-      ? ['https://web-mes-frontend.vercel.app', 'https://web-mes-frontend-git-main.vercel.app']
+      ? [
+          'https://web-mes-frontend.vercel.app',
+          'https://web-mes-frontend-git-main.vercel.app',
+          /^https:\/\/web-mes-frontend-.*\.vercel\.app$/,
+          'https://localhost:3000',
+          'http://localhost:3000'
+        ]
       : '*',
-    credentials: true 
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
   },
   transports: ['websocket', 'polling'],
   maxHttpBufferSize: 1e8, // 100MB

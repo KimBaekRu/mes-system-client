@@ -1864,12 +1864,26 @@ export default function App() {
   const [newEquipmentName, setNewEquipmentName] = useState('');
   const [newEquipmentIconUrl, setNewEquipmentIconUrl] = useState('');
   const [isAdmin, setIsAdmin] = useState(() => {
-    const saved = localStorage.getItem('isAdmin');
-    return saved === null ? true : saved === 'true';
+    try {
+      if (typeof window !== 'undefined' && localStorage) {
+        const saved = localStorage.getItem('isAdmin');
+        return saved === null ? true : saved === 'true';
+      }
+    } catch (error) {
+      console.warn('localStorage 접근 실패:', error);
+    }
+    return true; // 기본값: 관리자 모드
   }); // true: 관리자, false: 작업자
   const [isEditMode, setIsEditMode] = useState(false); // 편집 모드 상태
   const [currentTeam, setCurrentTeam] = useState(() => {
-    return localStorage.getItem('currentTeam') || 'A';
+    try {
+      if (typeof window !== 'undefined' && localStorage) {
+        return localStorage.getItem('currentTeam') || 'A';
+      }
+    } catch (error) {
+      console.warn('localStorage 접근 실패:', error);
+    }
+    return 'A'; // 기본값: A조
   }); // 현재 선택된 조
   const [chartRefresh, setChartRefresh] = useState(0); // 차트 실시간 업데이트용
   
