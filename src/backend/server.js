@@ -20,9 +20,18 @@ app.use(compression());
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
     ? [
+        // Vercel domains
         'https://web-mes-frontend.vercel.app',
         'https://web-mes-frontend-git-main.vercel.app',
         /^https:\/\/web-mes-frontend-.*\.vercel\.app$/,
+        'https://frontend2-mes-c29ec04f.vercel.app',
+        /^https:\/\/frontend2-.*\.vercel\.app$/,
+        // Netlify domains
+        /^https:\/\/.*--.*\.netlify\.app$/,
+        /^https:\/\/.*\.netlify\.app$/,
+        'https://web-mes-frontend.netlify.app',
+        'https://frontend2-mes.netlify.app',
+        // Development
         'https://localhost:3000',
         'http://localhost:3000'
       ]
