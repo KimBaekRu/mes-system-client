@@ -282,30 +282,7 @@ function ProcessTimeChart({ processData }) {
   );
 }
 
-// 백엔드 API URL 설정 - 배포 환경 자동 감지
-const getBackendUrl = () => {
-  // 개발 환경
-  if (process.env.NODE_ENV === 'development') {
-    return 'http://localhost:5000';
-  }
-  
-  // 배포 환경 - 환경변수에서 가져오거나 기본값 사용
-  return process.env.REACT_APP_API_URL || 'https://web-mes-backend-production.up.railway.app';
-};
-
-const API_BASE_URL = getBackendUrl();
-const SOCKET_URL = getBackendUrl();
-
-// Socket.IO 연결 설정 - 50명 동시 접속 최적화
-const socket = io(SOCKET_URL, {
-  transports: ['websocket', 'polling'],
-  timeout: 20000,
-  forceNew: true,
-  reconnection: true,
-  reconnectionAttempts: 5,
-  reconnectionDelay: 1000,
-  reconnectionDelayMax: 5000
-});
+const socket = io('http://localhost:3001');
 
 // 🔥 동적 위치 조정 컴포넌트 (생산량 창이 화면 밖으로 나가지 않도록)
 const DynamicPositionWrapper = React.forwardRef(({ processRect, scrollX, scrollY, inputBlocksCount, style, children, ...props }, ref) => {
@@ -1864,26 +1841,12 @@ export default function App() {
   const [newEquipmentName, setNewEquipmentName] = useState('');
   const [newEquipmentIconUrl, setNewEquipmentIconUrl] = useState('');
   const [isAdmin, setIsAdmin] = useState(() => {
-    try {
-      if (typeof window !== 'undefined' && localStorage) {
-        const saved = localStorage.getItem('isAdmin');
-        return saved === null ? true : saved === 'true';
-      }
-    } catch (error) {
-      console.warn('localStorage 접근 실패:', error);
-    }
-    return true; // 기본값: 관리자 모드
+    const saved = localStorage.getItem('isAdmin');
+    return saved === null ? true : saved === 'true';
   }); // true: 관리자, false: 작업자
   const [isEditMode, setIsEditMode] = useState(false); // 편집 모드 상태
   const [currentTeam, setCurrentTeam] = useState(() => {
-    try {
-      if (typeof window !== 'undefined' && localStorage) {
-        return localStorage.getItem('currentTeam') || 'A';
-      }
-    } catch (error) {
-      console.warn('localStorage 접근 실패:', error);
-    }
-    return 'A'; // 기본값: A조
+    return localStorage.getItem('currentTeam') || 'A';
   }); // 현재 선택된 조
   const [chartRefresh, setChartRefresh] = useState(0); // 차트 실시간 업데이트용
   

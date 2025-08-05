@@ -5,111 +5,18 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
-const compression = require('compression');
-const helmet = require('helmet');
-const rateLimit = require('express-rate-limit');
 
 const app = express();
+app.use(cors());
+app.use(bodyParser.json());
 
-// 보안 및 성능 최적화 미들웨어
-app.use(helmet({
-  contentSecurityPolicy: false,
-  crossOriginEmbedderPolicy: false
-}));
-app.use(compression());
-app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? [
-        // Vercel domains
-        'https://web-mes-frontend.vercel.app',
-        'https://web-mes-frontend-git-main.vercel.app',
-        /^https:\/\/web-mes-frontend-.*\.vercel\.app$/,
-        'https://frontend2-mes-c29ec04f.vercel.app',
-        /^https:\/\/frontend2-.*\.vercel\.app$/,
-        // Netlify domains
-        /^https:\/\/.*--.*\.netlify\.app$/,
-        /^https:\/\/.*\.netlify\.app$/,
-        'https://web-mes-frontend.netlify.app',
-        'https://frontend2-mes.netlify.app',
-        // GitHub Pages domains
-        /^https:\/\/.*\.github\.io$/,
-        // Development
-        'https://localhost:3000',
-        'http://localhost:3000'
-      ]
-    : '*',
-  credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
-}));
-
-// Rate limiting - 50명 동시 접속 고려
-const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15분
-  max: 1000, // IP당 최대 요청 수
-  message: '너무 많은 요청입니다. 잠시 후 다시 시도해주세요.',
-  standardHeaders: true,
-  legacyHeaders: false,
-});
-
-app.use(limiter);
-app.use(bodyParser.json({ limit: '10mb' }));
-app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));
-
-// Socket.IO 서버 설정 - 50명 동시 접속 최적화
 const server = http.createServer(app);
-const io = socketio(server, { 
-  cors: { 
-    origin: process.env.NODE_ENV === 'production' 
-      ? [
-          'https://web-mes-frontend.vercel.app',
-          'https://web-mes-frontend-git-main.vercel.app',
-          /^https:\/\/web-mes-frontend-.*\.vercel\.app$/,
-          'https://frontend2-mes-c29ec04f.vercel.app',
-          /^https:\/\/frontend2-.*\.vercel\.app$/,
-          /^https:\/\/.*--.*\.netlify\.app$/,
-          /^https:\/\/.*\.netlify\.app$/,
-          'https://web-mes-frontend.netlify.app',
-          'https://frontend2-mes.netlify.app',
-          /^https:\/\/.*\.github\.io$/,
-          'https://localhost:3000',
-          'http://localhost:3000'
-        ]
-      : '*',
-    credentials: true,
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
-  },
-  transports: ['websocket', 'polling'],
-  maxHttpBufferSize: 1e8, // 100MB
-  pingTimeout: 60000,
-  pingInterval: 25000
-});
-
-// Socket.IO 연결 관리
-const connectedUsers = new Map();
-
-io.on('connection', (socket) => {
-  console.log(`사용자 연결: ${socket.id}`);
-  connectedUsers.set(socket.id, { connectedAt: new Date() });
-  
-  // 연결된 사용자 수 브로드캐스트
-  io.emit('userCount', connectedUsers.size);
-  
-  socket.on('disconnect', () => {
-    console.log(`사용자 연결 해제: ${socket.id}`);
-    connectedUsers.delete(socket.id);
-    io.emit('userCount', connectedUsers.size);
-  });
-  
-  // 에러 핸들링
-  socket.on('error', (error) => {
-    console.error('Socket.IO 에러:', error);
-  });
-});
+const io = socketio(server, { cors: { origin: '*' } });
 
 const DATA_FILE = path.join(__dirname, 'equipments.json');
 let equipments = [];
 
+// 파일에서 장비 목록 불러오기
 function loadEquipments() {
   try {
     if (fs.existsSync(DATA_FILE)) {
@@ -117,81 +24,70 @@ function loadEquipments() {
       equipments = JSON.parse(data);
     }
   } catch (e) {
-    console.error('장비 데이터 로드 오류:', e);
     equipments = [];
   }
 }
 
+// 장비 목록 파일에 저장
 function saveEquipments() {
-  try {
-    fs.writeFileSync(DATA_FILE, JSON.stringify(equipments, null, 2), 'utf-8');
-  } catch (e) {
-    console.error('장비 데이터 저장 오류:', e);
-  }
+  fs.writeFileSync(DATA_FILE, JSON.stringify(equipments, null, 2), 'utf-8');
 }
 
 loadEquipments();
 
-// API 엔드포인트들
+
 app.get('/api/equipments', (req, res) => {
   res.json(equipments);
 });
 
+
 app.post('/api/equipments', (req, res) => {
-  try {
-    const { name, iconUrl, x, y } = req.body;
-    const newEq = { id: Date.now(), name, iconUrl, x, y, status: 'idle' };
-    equipments.push(newEq);
-    saveEquipments();
-    io.emit('equipmentAdded', newEq);
-    res.status(201).json(newEq);
-  } catch (error) {
-    console.error('장비 추가 오류:', error);
-    res.status(500).json({ error: '장비 추가 중 오류가 발생했습니다.' });
-  }
+  const { name, iconUrl, x, y } = req.body;
+  const newEq = { id: Date.now(), name, iconUrl, x, y, status: 'idle' };
+  equipments.push(newEq);
+  saveEquipments();
+  io.emit('equipmentAdded', newEq);
+  res.status(201).json(newEq);
 });
+
 
 app.put('/api/equipments/:id', (req, res) => {
-  try {
-    const id = +req.params.id;
-    const idx = equipments.findIndex(eq => eq.id === id);
-    if (idx === -1) return res.sendStatus(404);
+  const id = +req.params.id;
+  const idx = equipments.findIndex(eq => eq.id === id);
+  if (idx === -1) return res.sendStatus(404);
 
-    const updated = { ...equipments[idx], ...req.body };
-    if (typeof req.body.x !== 'number') updated.x = equipments[idx].x;
-    if (typeof req.body.y !== 'number') updated.y = equipments[idx].y;
-    if (Array.isArray(req.body.maintenanceHistory)) {
-      updated.maintenanceHistory = req.body.maintenanceHistory;
-    }
-
-    if (!Array.isArray(updated.history)) updated.history = [];
-    updated.history.push({
-      user: req.body.user || 'unknown',
-      time: new Date().toISOString(),
-      value: req.body.status !== undefined ? req.body.status : updated.status
-    });
-
-    equipments[idx] = updated;
-    saveEquipments();
-    io.emit('equipmentUpdated', equipments[idx]);
-    res.json(equipments[idx]);
-  } catch (error) {
-    console.error('장비 업데이트 오류:', error);
-    res.status(500).json({ error: '장비 업데이트 중 오류가 발생했습니다.' });
+  // 기존 값 복사
+  const updated = { ...equipments[idx], ...req.body };
+  if (typeof req.body.x !== 'number') updated.x = equipments[idx].x;
+  if (typeof req.body.y !== 'number') updated.y = equipments[idx].y;
+  // maintenanceHistory가 배열로 오면 전체를 덮어씀
+  if (Array.isArray(req.body.maintenanceHistory)) {
+    updated.maintenanceHistory = req.body.maintenanceHistory;
   }
+
+  // === 변경 이력(history) 누적 저장 ===
+  // history가 없으면 새로 만듦
+  if (!Array.isArray(updated.history)) updated.history = [];
+  // 저장값 기록: user, time, value(status 등)
+  updated.history.push({
+    user: req.body.user || 'unknown',
+    time: new Date().toISOString(),
+    value: req.body.status !== undefined ? req.body.status : updated.status
+  });
+
+  equipments[idx] = updated;
+  saveEquipments();
+  io.emit('equipmentUpdated', equipments[idx]);
+  res.json(equipments[idx]);
 });
 
+
 app.delete('/api/equipments/:id', (req, res) => {
-  try {
-    const id = +req.params.id;
-    equipments = equipments.filter(eq => eq.id !== id);
-    saveEquipments();
-    io.emit('equipmentDeleted', id);
-    res.sendStatus(204);
-  } catch (error) {
-    console.error('장비 삭제 오류:', error);
-    res.status(500).json({ error: '장비 삭제 중 오류가 발생했습니다.' });
-  }
+  const id = +req.params.id;
+  equipments = equipments.filter(eq => eq.id !== id);
+  saveEquipments();
+  io.emit('equipmentDeleted', id);
+  res.sendStatus(204);
 });
 
 // === 공정명(processTitles) 데이터 및 파일 관리 ===
@@ -210,7 +106,6 @@ function loadProcessTitles() {
     processTitles = [];
   }
 }
-
 function saveProcessTitles() {
   try {
     fs.writeFileSync(PROCESS_FILE, JSON.stringify(processTitles, null, 2), 'utf-8');
@@ -218,62 +113,55 @@ function saveProcessTitles() {
     console.error('processTitles 파일 저장 오류:', e);
   }
 }
-
 loadProcessTitles();
 
+// === 공정명(processTitles) API ===
 app.get('/api/processTitles', (req, res) => {
   res.json(processTitles);
 });
 
 app.post('/api/processTitles', (req, res) => {
-  try {
-    const { title, x, y, team } = req.body;
-    const newProcess = { 
-      id: Date.now(), 
-      title, 
-      x: x || 0, 
-      y: y || 0, 
-      team: team || 'ALL',
-      createdAt: new Date().toISOString()
-    };
-    processTitles.push(newProcess);
-    saveProcessTitles();
-    io.emit('processTitleAdded', newProcess);
-    res.status(201).json(newProcess);
-  } catch (error) {
-    console.error('공정명 추가 오류:', error);
-    res.status(500).json({ error: '공정명 추가 중 오류가 발생했습니다.' });
-  }
+  const { title, x, y } = req.body;
+  const newTitle = { id: Date.now(), title, x, y, history: [] };
+  processTitles.push(newTitle);
+  saveProcessTitles();
+  res.status(201).json(newTitle);
 });
 
 app.put('/api/processTitles/:id', (req, res) => {
-  try {
-    const id = +req.params.id;
-    const idx = processTitles.findIndex(process => process.id === id);
-    if (idx === -1) return res.sendStatus(404);
+  const id = +req.params.id;
+  const idx = processTitles.findIndex(t => t.id === id);
+  if (idx === -1) return res.sendStatus(404);
 
-    const updated = { ...processTitles[idx], ...req.body };
-    processTitles[idx] = updated;
-    saveProcessTitles();
-    io.emit('processTitleUpdated', updated);
-    res.json(updated);
-  } catch (error) {
-    console.error('공정명 업데이트 오류:', error);
-    res.status(500).json({ error: '공정명 업데이트 중 오류가 발생했습니다.' });
+  // 기존 값 복사
+  const updated = { ...processTitles[idx] };
+  // 필요한 필드만 개별적으로 갱신
+  if (typeof req.body.title === 'string') updated.title = req.body.title;
+  if (typeof req.body.x === 'number') updated.x = req.body.x;
+  if (typeof req.body.y === 'number') updated.y = req.body.y;
+  if (req.body.yield !== undefined) updated.yield = req.body.yield;
+  if (Array.isArray(req.body.maintenanceHistory)) updated.maintenanceHistory = req.body.maintenanceHistory;
+  // 기타 필요한 필드도 위와 같이 추가
+
+  // === 변경 이력(history) 누적 저장 ===
+  if (!Array.isArray(updated.history)) updated.history = [];
+  if (req.body.yield !== undefined) {
+    updated.history.push({
+      user: req.body.user || 'unknown',
+      time: new Date().toISOString(),
+      value: req.body.yield
+    });
   }
+  processTitles[idx] = updated;
+  saveProcessTitles();
+  res.json(processTitles[idx]);
 });
 
 app.delete('/api/processTitles/:id', (req, res) => {
-  try {
-    const id = +req.params.id;
-    processTitles = processTitles.filter(process => process.id !== id);
-    saveProcessTitles();
-    io.emit('processTitleDeleted', id);
-    res.sendStatus(204);
-  } catch (error) {
-    console.error('공정명 삭제 오류:', error);
-    res.status(500).json({ error: '공정명 삭제 중 오류가 발생했습니다.' });
-  }
+  const id = +req.params.id;
+  processTitles = processTitles.filter(t => t.id !== id);
+  saveProcessTitles();
+  res.sendStatus(204);
 });
 
 // === 라인명(lineNames) 데이터 및 파일 관리 ===
@@ -292,7 +180,6 @@ function loadLineNames() {
     lineNames = [];
   }
 }
-
 function saveLineNames() {
   try {
     fs.writeFileSync(LINE_FILE, JSON.stringify(lineNames, null, 2), 'utf-8');
@@ -300,159 +187,79 @@ function saveLineNames() {
     console.error('lineNames 파일 저장 오류:', e);
   }
 }
-
 loadLineNames();
 
+// === 라인명(lineNames) API ===
 app.get('/api/lineNames', (req, res) => {
   res.json(lineNames);
 });
 
 app.post('/api/lineNames', (req, res) => {
-  try {
-    const { name, x, y } = req.body;
-    const newLine = { 
-      id: Date.now(), 
-      name, 
-      x: x || 0, 
-      y: y || 0,
-      createdAt: new Date().toISOString()
-    };
-    lineNames.push(newLine);
-    saveLineNames();
-    io.emit('lineNameAdded', newLine);
-    res.status(201).json(newLine);
-  } catch (error) {
-    console.error('라인명 추가 오류:', error);
-    res.status(500).json({ error: '라인명 추가 중 오류가 발생했습니다.' });
-  }
+  const { name, x, y } = req.body;
+  const newLine = { id: Date.now(), name, x, y };
+  lineNames.push(newLine);
+  saveLineNames();
+  res.status(201).json(newLine);
 });
 
 app.put('/api/lineNames/:id', (req, res) => {
-  try {
-    const id = +req.params.id;
-    const idx = lineNames.findIndex(line => line.id === id);
-    if (idx === -1) return res.sendStatus(404);
-
-    const updated = { ...lineNames[idx], ...req.body };
-    lineNames[idx] = updated;
-    saveLineNames();
-    io.emit('lineNameUpdated', updated);
-    res.json(updated);
-  } catch (error) {
-    console.error('라인명 업데이트 오류:', error);
-    res.status(500).json({ error: '라인명 업데이트 중 오류가 발생했습니다.' });
-  }
+  const id = +req.params.id;
+  const idx = lineNames.findIndex(l => l.id === id);
+  if (idx === -1) return res.sendStatus(404);
+  const updated = { ...lineNames[idx] };
+  if (typeof req.body.name === 'string') updated.name = req.body.name;
+  if (typeof req.body.x === 'number') updated.x = req.body.x;
+  if (typeof req.body.y === 'number') updated.y = req.body.y;
+  lineNames[idx] = updated;
+  saveLineNames();
+  res.json(lineNames[idx]);
 });
 
 app.delete('/api/lineNames/:id', (req, res) => {
-  try {
-    const id = +req.params.id;
-    lineNames = lineNames.filter(line => line.id !== id);
-    saveLineNames();
-    io.emit('lineNameDeleted', id);
-    res.sendStatus(204);
-  } catch (error) {
-    console.error('라인명 삭제 오류:', error);
-    res.status(500).json({ error: '라인명 삭제 중 오류가 발생했습니다.' });
-  }
+  const id = +req.params.id;
+  lineNames = lineNames.filter(l => l.id !== id);
+  saveLineNames();
+  res.sendStatus(204);
 });
 
 // === 사용자(users) 데이터 및 파일 관리 ===
-const USER_FILE = path.join(__dirname, 'users.json');
+const USERS_FILE = path.join(__dirname, 'users.json');
 let users = [];
-
 function loadUsers() {
   try {
-    if (!fs.existsSync(USER_FILE)) {
-      fs.writeFileSync(USER_FILE, '[]', 'utf-8');
+    if (fs.existsSync(USERS_FILE)) {
+      const data = fs.readFileSync(USERS_FILE, 'utf-8');
+      users = JSON.parse(data);
     }
-    const data = fs.readFileSync(USER_FILE, 'utf-8');
-    users = JSON.parse(data);
   } catch (e) {
-    console.error('users 파일 로드 오류:', e);
     users = [];
   }
 }
-
-function saveUsers() {
-  try {
-    fs.writeFileSync(USER_FILE, JSON.stringify(users, null, 2), 'utf-8');
-  } catch (e) {
-    console.error('users 파일 저장 오류:', e);
-  }
-}
-
 loadUsers();
 
-app.get('/api/users', (req, res) => {
-  res.json(users);
+// === 로그인 API ===
+app.post('/api/login', (req, res) => {
+  const { username, password, role } = req.body;
+  const user = users.find(u => u.username === username && u.password === password && u.role === role);
+  if (!user) return res.status(401).json({ error: '로그인 실패: 아이디, 비밀번호 또는 역할이 일치하지 않습니다.' });
+  res.json({ username: user.username, role: user.role });
 });
 
-app.post('/api/users', (req, res) => {
-  try {
-    const { username, password, role } = req.body;
-    const newUser = { 
-      id: Date.now(), 
-      username, 
-      password, 
-      role: role || 'user',
-      createdAt: new Date().toISOString()
-    };
-    users.push(newUser);
-    saveUsers();
-    res.status(201).json(newUser);
-  } catch (error) {
-    console.error('사용자 추가 오류:', error);
-    res.status(500).json({ error: '사용자 추가 중 오류가 발생했습니다.' });
-  }
-});
-
-// 헬스체크 엔드포인트
-app.get('/health', (req, res) => {
-  res.json({ 
-    status: 'OK', 
-    timestamp: new Date().toISOString(),
-    connectedUsers: connectedUsers.size,
-    uptime: process.uptime()
+io.on('connection', socket => {
+  console.log('클라이언트 연결:', socket.id);
+  socket.emit('initialEquipments', equipments);
+  socket.on('updateStatus', ({ id, status }) => {
+    const eq = equipments.find(e => e.id === id);
+    if (!eq) return;
+    eq.status = status;
+    io.emit('statusUpdate', { id, status });
+  });
+  socket.on('disconnect', () => {
+    console.log('클라이언트 연결 해제:', socket.id);
   });
 });
 
-// 서버 상태 엔드포인트
-app.get('/api/status', (req, res) => {
-  res.json({
-    equipments: equipments.length,
-    processTitles: processTitles.length,
-    lineNames: lineNames.length,
-    users: users.length,
-    connectedUsers: connectedUsers.size,
-    uptime: process.uptime(),
-    memory: process.memoryUsage()
-  });
-});
-
-const PORT = process.env.PORT || 5000;
-
+const PORT = process.env.PORT || 3001;
 server.listen(PORT, () => {
-  console.log(`🚀 서버가 포트 ${PORT}에서 실행 중입니다.`);
-  console.log(`📊 현재 연결된 사용자: ${connectedUsers.size}명`);
-  console.log(`🔧 장비 수: ${equipments.length}개`);
-  console.log(`🏭 공정명 수: ${processTitles.length}개`);
-  console.log(`📏 라인명 수: ${lineNames.length}개`);
-});
-
-// 프로세스 종료 시 정리
-process.on('SIGTERM', () => {
-  console.log('SIGTERM 신호 수신. 서버를 정상적으로 종료합니다.');
-  server.close(() => {
-    console.log('서버가 정상적으로 종료되었습니다.');
-    process.exit(0);
-  });
-});
-
-process.on('SIGINT', () => {
-  console.log('SIGINT 신호 수신. 서버를 정상적으로 종료합니다.');
-  server.close(() => {
-    console.log('서버가 정상적으로 종료되었습니다.');
-    process.exit(0);
-  });
+  console.log(`MES 백엔드 실행 중: http://localhost:${PORT}`);
 });

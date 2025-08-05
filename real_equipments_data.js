@@ -7873,3 +7873,5 @@
     "selectedOption": "2566LD"
   }
 ];
+
+export { REAL_EQUIPMENTS_DATA };

@@ -1,12 +1,12 @@
 services:
   - type: web
-    name: web-mes-backend
+    name: mes-system-backend
     env: node
     plan: free
-    buildCommand: cd src/backend && pnpm install
+    buildCommand: cd src/backend && npm install
     startCommand: cd src/backend && node server.js
     envVars:
       - key: NODE_ENV
         value: production
       - key: PORT
-        value: 3001
+        value: 5000
