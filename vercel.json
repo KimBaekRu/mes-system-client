@@ -7,6 +7,10 @@
       "config": {
         "distDir": "build"
       }
+    },
+    {
+      "src": "api/server.js",
+      "use": "@vercel/node"
     }
   ],
   "rewrites": [
@@ -77,17 +81,12 @@
     }
   ],
   "env": {
-    "NODE_ENV": "production",
-    "REACT_APP_API_URL": "https://web-mes-system.vercel.app"
+    "NODE_ENV": "production"
   },
   "functions": {
     "api/server.js": {
       "maxDuration": 30
     }
-  },
-  "domains": [
-    "web-mes-system.vercel.app",
-    "www.web-mes-system.vercel.app"
-  ]
+  }
 }
 
