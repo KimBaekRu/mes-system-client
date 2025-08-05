@@ -9,16 +9,28 @@
       }
     }
   ],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/api/(.*)",
-      "destination": "https://web-mes-backend-production.up.railway.app/api/$1"
+      "src": "/images/(.*)",
+      "dest": "/images/$1"
     },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
+    },
+    {
+      "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico|json|woff|woff2|ttf|eot))",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ],
+  "env": {
+    "NODE_ENV": "production",
+    "REACT_APP_API_URL": "https://web-mes-backend-production.up.railway.app"
+  },
   "headers": [
     {
       "source": "/(.*)",
@@ -60,8 +72,10 @@
       ]
     }
   ],
-  "env": {
-    "NODE_ENV": "production",
-    "REACT_APP_API_URL": "https://web-mes-backend-production.up.railway.app"
-  }
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://web-mes-backend-production.up.railway.app/api/$1"
+    }
+  ]
 }
