@@ -13,49 +13,87 @@ app.use(bodyParser.json());
 const server = http.createServer(app);
 const io = socketio(server, { cors: { origin: '*' } });
 
-// Vercel serverless 환경을 위한 메모리 기반 데이터 저장
-let equipments = [];
+// 실제 장비 데이터 로드
+const REAL_EQUIPMENTS_DATA = require('../../real_equipments_data.js').REAL_EQUIPMENTS_DATA;
+let equipments = [...REAL_EQUIPMENTS_DATA];
+
+// 파일에서 데이터 로드 함수들
+const DATA_FILE = path.join(__dirname, 'equipments.json');
+const PROCESS_FILE = path.join(__dirname, 'processTitles.json');
+const LINE_FILE = path.join(__dirname, 'lineNames.json');
+const USERS_FILE = path.join(__dirname, 'users.json');
+
 let processTitles = [];
 let lineNames = [];
 let users = [];
 
-// 초기 데이터 로드 (Vercel에서는 파일 시스템 쓰기가 제한적)
-function loadInitialData() {
+// 파일에서 공정명 데이터 불러오기
+function loadProcessTitles() {
   try {
-    // 기본 사용자 데이터
-    users = [
-      { username: 'admin', password: 'admin123', role: 'admin' },
-      { username: 'operator', password: 'op123', role: 'operator' },
-      { username: 'manager', password: 'mg123', role: 'manager' }
-    ];
-    
-    // 기본 장비 데이터
-    equipments = [
-      { id: 1, name: '프레스', iconUrl: '/images/press.png', x: 100, y: 100, status: 'idle', history: [] },
-      { id: 2, name: '용접기', iconUrl: '/images/welder.png', x: 300, y: 100, status: 'idle', history: [] },
-      { id: 3, name: '조립기', iconUrl: '/images/assembler.png', x: 500, y: 100, status: 'idle', history: [] }
-    ];
-    
-    // 기본 공정명 데이터
-    processTitles = [
-      { id: 1, name: '절단', x: 100, y: 200 },
-      { id: 2, name: '용접', x: 300, y: 200 },
-      { id: 3, name: '조립', x: 500, y: 200 }
-    ];
-    
-    // 기본 라인명 데이터
-    lineNames = [
-      { id: 1, name: 'A라인', x: 100, y: 300 },
-      { id: 2, name: 'B라인', x: 300, y: 300 },
-      { id: 3, name: 'C라인', x: 500, y: 300 }
-    ];
+    if (!fs.existsSync(PROCESS_FILE)) {
+      fs.writeFileSync(PROCESS_FILE, '[]', 'utf-8');
+    }
+    const data = fs.readFileSync(PROCESS_FILE, 'utf-8');
+    processTitles = JSON.parse(data);
   } catch (e) {
-    console.error('초기 데이터 로드 오류:', e);
+    console.error('processTitles 파일 로드 오류:', e);
+    processTitles = [];
   }
 }
 
-loadInitialData();
+function saveProcessTitles() {
+  try {
+    fs.writeFileSync(PROCESS_FILE, JSON.stringify(processTitles, null, 2), 'utf-8');
+  } catch (e) {
+    console.error('processTitles 파일 저장 오류:', e);
+  }
+}
 
+// 파일에서 라인명 데이터 불러오기
+function loadLineNames() {
+  try {
+    if (!fs.existsSync(LINE_FILE)) {
+      fs.writeFileSync(LINE_FILE, '[]', 'utf-8');
+    }
+    const data = fs.readFileSync(LINE_FILE, 'utf-8');
+    lineNames = JSON.parse(data);
+  } catch (e) {
+    console.error('lineNames 파일 로드 오류:', e);
+    lineNames = [];
+  }
+}
+
+function saveLineNames() {
+  try {
+    fs.writeFileSync(LINE_FILE, JSON.stringify(lineNames, null, 2), 'utf-8');
+  } catch (e) {
+    console.error('lineNames 파일 저장 오류:', e);
+  }
+}
+
+// 파일에서 사용자 데이터 불러오기
+function loadUsers() {
+  try {
+    if (fs.existsSync(USERS_FILE)) {
+      const data = fs.readFileSync(USERS_FILE, 'utf-8');
+      users = JSON.parse(data);
+    }
+  } catch (e) {
+    users = [];
+  }
+}
+
+// 장비 목록 파일에 저장
+function saveEquipments() {
+  fs.writeFileSync(DATA_FILE, JSON.stringify(equipments, null, 2), 'utf-8');
+}
+
+// 초기 데이터 로드
+loadProcessTitles();
+loadLineNames();
+loadUsers();
+
+// API 라우트들
 app.get('/api/equipments', (req, res) => {
   res.json(equipments);
 });
@@ -64,6 +102,7 @@ app.post('/api/equipments', (req, res) => {
   const { name, iconUrl, x, y } = req.body;
   const newEq = { id: Date.now(), name, iconUrl, x, y, status: 'idle', history: [] };
   equipments.push(newEq);
+  saveEquipments();
   io.emit('equipmentAdded', newEq);
   res.status(201).json(newEq);
 });
@@ -89,6 +128,7 @@ app.put('/api/equipments/:id', (req, res) => {
   });
 
   equipments[idx] = updated;
+  saveEquipments();
   io.emit('equipmentUpdated', equipments[idx]);
   res.json(equipments[idx]);
 });
@@ -96,6 +136,7 @@ app.put('/api/equipments/:id', (req, res) => {
 app.delete('/api/equipments/:id', (req, res) => {
   const id = +req.params.id;
   equipments = equipments.filter(eq => eq.id !== id);
+  saveEquipments();
   io.emit('equipmentDeleted', id);
   res.sendStatus(204);
 });
@@ -106,27 +147,43 @@ app.get('/api/processTitles', (req, res) => {
 });
 
 app.post('/api/processTitles', (req, res) => {
-  const { name, x, y } = req.body;
-  const newProcess = { id: Date.now(), name, x, y };
-  processTitles.push(newProcess);
-  res.status(201).json(newProcess);
+  const { title, x, y } = req.body;
+  const newTitle = { id: Date.now(), title, x, y, history: [] };
+  processTitles.push(newTitle);
+  saveProcessTitles();
+  res.status(201).json(newTitle);
 });
 
 app.put('/api/processTitles/:id', (req, res) => {
   const id = +req.params.id;
-  const idx = processTitles.findIndex(p => p.id === id);
+  const idx = processTitles.findIndex(t => t.id === id);
   if (idx === -1) return res.sendStatus(404);
+
   const updated = { ...processTitles[idx] };
-  if (typeof req.body.name === 'string') updated.name = req.body.name;
+  if (typeof req.body.title === 'string') updated.title = req.body.title;
   if (typeof req.body.x === 'number') updated.x = req.body.x;
   if (typeof req.body.y === 'number') updated.y = req.body.y;
+  if (req.body.yield !== undefined) updated.yield = req.body.yield;
+  if (Array.isArray(req.body.maintenanceHistory)) updated.maintenanceHistory = req.body.maintenanceHistory;
+
+  if (!Array.isArray(updated.history)) updated.history = [];
+  if (req.body.yield !== undefined) {
+    updated.history.push({
+      user: req.body.user || 'unknown',
+      time: new Date().toISOString(),
+      value: req.body.yield
+    });
+  }
+
   processTitles[idx] = updated;
+  saveProcessTitles();
   res.json(processTitles[idx]);
 });
 
 app.delete('/api/processTitles/:id', (req, res) => {
   const id = +req.params.id;
-  processTitles = processTitles.filter(p => p.id !== id);
+  processTitles = processTitles.filter(t => t.id !== id);
+  saveProcessTitles();
   res.sendStatus(204);
 });
 
@@ -139,6 +196,7 @@ app.post('/api/lineNames', (req, res) => {
   const { name, x, y } = req.body;
   const newLine = { id: Date.now(), name, x, y };
   lineNames.push(newLine);
+  saveLineNames();
   res.status(201).json(newLine);
 });
 
@@ -151,12 +209,14 @@ app.put('/api/lineNames/:id', (req, res) => {
   if (typeof req.body.x === 'number') updated.x = req.body.x;
   if (typeof req.body.y === 'number') updated.y = req.body.y;
   lineNames[idx] = updated;
+  saveLineNames();
   res.json(lineNames[idx]);
 });
 
 app.delete('/api/lineNames/:id', (req, res) => {
   const id = +req.params.id;
   lineNames = lineNames.filter(l => l.id !== id);
+  saveLineNames();
   res.sendStatus(204);
 });
 
@@ -185,13 +245,10 @@ io.on('connection', socket => {
   });
 });
 
-// Vercel serverless 환경을 위한 export
-module.exports = app;
-
 // 로컬 개발용 서버 시작
-if (process.env.NODE_ENV !== 'production') {
-  const PORT = process.env.PORT || 3001;
-  server.listen(PORT, () => {
-    console.log(`MES 백엔드 실행 중: http://localhost:${PORT}`);
-  });
-}
+const PORT = process.env.PORT || 3001;
+server.listen(PORT, () => {
+  console.log(`MES 백엔드 실행 중: http://localhost:${PORT}`);
+});
+
+module.exports = app; 
