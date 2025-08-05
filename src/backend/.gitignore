@@ -76,3 +76,8 @@ jspm_packages/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Root directory files that should not be included in backend
+../real_equipments_data.js
+../real_linenames_data.js
+../real_process_data.js
