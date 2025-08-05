@@ -3,8 +3,6 @@ const http = require('http');
 const socketio = require('socket.io');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const fs = require('fs');
-const path = require('path');
 
 const app = express();
 app.use(cors());
@@ -19,7 +17,7 @@ let processTitles = [];
 let lineNames = [];
 let users = [];
 
-// 초기 데이터 로드 (Vercel에서는 파일 시스템 쓰기가 제한적)
+// 초기 데이터 로드
 function loadInitialData() {
   try {
     // 기본 사용자 데이터
@@ -56,6 +54,7 @@ function loadInitialData() {
 
 loadInitialData();
 
+// API 라우트들
 app.get('/api/equipments', (req, res) => {
   res.json(equipments);
 });
@@ -186,12 +185,4 @@ io.on('connection', socket => {
 });
 
 // Vercel serverless 환경을 위한 export
-module.exports = app;
-
-// 로컬 개발용 서버 시작
-if (process.env.NODE_ENV !== 'production') {
-  const PORT = process.env.PORT || 3001;
-  server.listen(PORT, () => {
-    console.log(`MES 백엔드 실행 중: http://localhost:${PORT}`);
-  });
-}
+module.exports = app; 

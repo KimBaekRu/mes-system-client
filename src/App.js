@@ -282,7 +282,7 @@ function ProcessTimeChart({ processData }) {
   );
 }
 
-const socket = io('http://localhost:3001');
+const socket = io(process.env.NODE_ENV === 'production' ? window.location.origin : 'http://localhost:3001');
 
 // 🔥 동적 위치 조정 컴포넌트 (생산량 창이 화면 밖으로 나가지 않도록)
 const DynamicPositionWrapper = React.forwardRef(({ processRect, scrollX, scrollY, inputBlocksCount, style, children, ...props }, ref) => {
