@@ -1,0 +1,30 @@
+services:
+  # Frontend 서비스
+  - type: web
+    name: mes-frontend
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: ./build
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /static/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+  # Backend 서비스  
+  - type: web
+    name: mes-backend
+    env: node
+    buildCommand: cd src/backend && npm install
+    startCommand: cd src/backend && node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
