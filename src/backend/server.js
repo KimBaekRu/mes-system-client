@@ -31,6 +31,8 @@ app.use(cors({
         /^https:\/\/.*\.netlify\.app$/,
         'https://web-mes-frontend.netlify.app',
         'https://frontend2-mes.netlify.app',
+        // GitHub Pages domains
+        /^https:\/\/.*\.github\.io$/,
         // Development
         'https://localhost:3000',
         'http://localhost:3000'
@@ -63,6 +65,13 @@ const io = socketio(server, {
           'https://web-mes-frontend.vercel.app',
           'https://web-mes-frontend-git-main.vercel.app',
           /^https:\/\/web-mes-frontend-.*\.vercel\.app$/,
+          'https://frontend2-mes-c29ec04f.vercel.app',
+          /^https:\/\/frontend2-.*\.vercel\.app$/,
+          /^https:\/\/.*--.*\.netlify\.app$/,
+          /^https:\/\/.*\.netlify\.app$/,
+          'https://web-mes-frontend.netlify.app',
+          'https://frontend2-mes.netlify.app',
+          /^https:\/\/.*\.github\.io$/,
           'https://localhost:3000',
           'http://localhost:3000'
         ]
