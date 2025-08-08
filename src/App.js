@@ -730,12 +730,25 @@ function ProcessTitleNode({
   const blueBoxRef = React.useRef(null);
   useEffect(() => {
     if (!showMaint) return;
+    // 🔥 약간의 지연을 두어 생산량 버튼 클릭과 바깥클릭 감지의 충돌 방지
+    const timer = setTimeout(() => {
     function handleClickOutside(e) {
       if (blueBoxRef.current && blueBoxRef.current.contains(e.target)) return;
       setShowMaint(false);
     }
     document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+      
+      // cleanup 함수를 반환하기 위해 전역 변수로 저장
+      window._handleClickOutside = handleClickOutside;
+    }, 100);
+    
+    return () => {
+      clearTimeout(timer);
+      if (window._handleClickOutside) {
+        document.removeEventListener('mousedown', window._handleClickOutside);
+        delete window._handleClickOutside;
+      }
+    };
   }, [showMaint, setShowMaint]);
 
   return (
@@ -1265,8 +1278,11 @@ function EquipmentNode({ eq, onMove, onDelete, onStatusChange, isAdmin, isEditMo
       key={eq.id + '-' + eq.x + '-' + eq.y}
     >
       <div style={{ position: 'absolute', width: 80, zIndex }} data-equipment-id={eq.id}>
-        {/* 메모 세모 마크 */}
-        {eq.memo && eq.memo.trim() && (
+        {/* 메모 세모 마크 - 🔥 localStorage에서 직접 확인하도록 수정 */}
+        {(() => {
+          const memoKey = `equipment_${eq.id}_memo_${currentTeam}`;
+          const currentMemo = localStorage.getItem(memoKey) || '';
+          return currentMemo && currentMemo.trim() ? (
           <div style={{
             position: 'absolute', left: 20, top: 8, width: 0, height: 0,
             borderLeft: 0,
@@ -1274,16 +1290,17 @@ function EquipmentNode({ eq, onMove, onDelete, onStatusChange, isAdmin, isEditMo
             borderTop: '8px solid red',
             zIndex: 10
           }} />
-        )}
+          ) : null;
+        })()}
         {/* 타워램프 신호등 */}
         <div style={{ width: (pendingSize ? pendingSize.width : imgSize.width), height: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 2, marginLeft: 'auto', marginRight: 'auto' }}>
           <div style={{
             width: 6,
             height: 6,
             borderRadius: '50%',
-            background: lampColor[eq.status] || 'gray',
+            background: lampColor[eq.status] || lampColor['idle'] || 'yellow', // 🔥 회색 대신 기본값 'idle'(노란색) 사용
             border: '1px solid #888',
-            boxShadow: `0 0 12px 6px ${lampColor[eq.status] || 'gray'}, 0 0 24px 12px ${lampColor[eq.status] || 'gray'}`
+            boxShadow: `0 0 12px 6px ${lampColor[eq.status] || lampColor['idle'] || 'yellow'}, 0 0 24px 12px ${lampColor[eq.status] || lampColor['idle'] || 'yellow'}`
           }} />
         </div>
         {/* 장비 이미지 */}
@@ -1925,7 +1942,7 @@ export default function App() {
           ...equipment,
           memo: teamMemo,
           selectedOption: teamMaterial,
-          status: teamStatus ? parseInt(teamStatus) : equipment.status
+          status: teamStatus || equipment.status || 'idle' // 🔥 문자열 그대로 사용, 기본값 'idle'
         };
       });
       setEquipments(updatedEquipments);
@@ -2119,8 +2136,8 @@ export default function App() {
     const newAssignmentLineName = {
       id: newId,
       name: name.trim(),
-      x: 300 + (Math.random() * 200), // 겹치지 않는 랜덤 위치
-      y: 300 + (Math.random() * 100)
+      x: (window.innerWidth / 2) - 100, // 🔥 어싸인 현황 배경 정중앙
+      y: 2 + (assignmentLineNames.length * 60) // 🔥 상단 최상위부터
     };
     
     setAssignmentLineNames(prev => [...prev, newAssignmentLineName]);
@@ -2460,7 +2477,28 @@ export default function App() {
       .then(r => r.json())
       .then(setLineNames);
 
-    socket.on('initialEquipments', data => setEquipments(data));
+    socket.on('initialEquipments', data => {
+      // 🔥 초기 장비 로드시 localStorage에서 조별 상태/메모/자재명 불러오기
+      const updatedData = data.map(equipment => {
+        const memoKey = `equipment_${equipment.id}_memo_${currentTeam}`;
+        const materialKey = `equipment_${equipment.id}_material_${currentTeam}`;
+        const statusKey = `equipment_${equipment.id}_status_${currentTeam}`;
+        
+        const teamMemo = localStorage.getItem(memoKey) || '';
+        const teamMaterial = localStorage.getItem(materialKey) || equipment.selectedOption || '';
+        const teamStatus = localStorage.getItem(statusKey);
+        
+        console.log(`🔥 초기로드: 장비 ${equipment.name}(${equipment.id}) - 메모 ${teamMemo.length}자, 자재명 ${teamMaterial}, 상태 ${teamStatus}`);
+        
+        return {
+          ...equipment,
+          memo: teamMemo,
+          selectedOption: teamMaterial,
+          status: teamStatus || equipment.status || 'idle' // 🔥 문자열 그대로 사용, 기본값 'idle'
+        };
+      });
+      setEquipments(updatedData);
+    });
     socket.on('equipmentAdded', newEq => setEquipments(prev => [...prev, newEq]));
     socket.on('equipmentUpdated', updated => {
       setEquipments(prev => prev.map(eq => eq.id === updated.id ? updated : eq));
@@ -2752,10 +2790,11 @@ export default function App() {
 
     console.log(`🔥 장비 상태 변경: ${equipmentName} → ${getStatusText(status)}`);
 
-    // 🔥 조별 장비 상태 저장
+    // 🔥 조별 장비 상태 저장 (문자열로 저장)
     const statusKey = `equipment_${id}_status_${currentTeam}`;
-    localStorage.setItem(statusKey, status.toString());
-    console.log(`🔥 조별 장비 상태 저장: ${statusKey} = ${status}`);
+    const statusValue = status || 'idle'; // 기본값 확보
+    localStorage.setItem(statusKey, statusValue);
+    console.log(`🔥 조별 장비 상태 저장: ${statusKey} = ${statusValue}`);
 
     // 정비 이력 추가
     if (maint && maint.time !== undefined && maint.description) {
@@ -3797,9 +3836,9 @@ export default function App() {
       {isAdmin && showAssignmentStatus && (
         <div style={{
           position: 'relative',
-          width: '300vw',
-          height: '200vh',
-          minHeight: '200vh',
+          width: '150vw',
+          height: '170vh',
+          minHeight: '120vh',
           backgroundColor: '#2a2a2a',
           backgroundImage: `
             linear-gradient(to right, rgba(128, 128, 128, 0.3) 1px, transparent 1px),
@@ -3906,7 +3945,7 @@ export default function App() {
           {/* 어싸인 현황 표들 */}
           {assignmentTables.map(table => (
             <DraggableAssignmentTable
-              key={table.id}
+              key={`${table.id}-${table._lastUpdate || 0}`}
               table={table}
               onUpdateTable={(updatedTable) => {
                 setAssignmentTables(prev => 
@@ -4202,8 +4241,7 @@ function LineNameNode({ name, x, y, id, isAdmin, isEditMode, onMove, onDelete })
 function DraggableAssignmentLineName({ lineName, onMove, onDelete }) {
   return (
     <Draggable
-      key={`${lineName.id}-${lineName.x}-${lineName.y}`}
-      defaultPosition={{ x: lineName.x, y: lineName.y }}
+      position={{ x: lineName.x, y: lineName.y }}
       onStop={(e, data) => onMove(lineName.id, data.x, data.y)}
       handle=".assignment-line-name-handle"
     >
@@ -4421,8 +4459,7 @@ function DraggableAssignmentTable({ table, onUpdateTable, onDeleteTable }) {
 
   return (
     <Draggable
-      key={`${table.id}-${table.x}-${table.y}`}
-      defaultPosition={{ x: table.x, y: table.y }}
+      position={{ x: table.x, y: table.y }}
       onStop={(e, data) => {
         // 그리드에 스냅된 위치 계산
         const snappedPosition = snapToGrid(data.x, data.y, table.width, autoHeight);
