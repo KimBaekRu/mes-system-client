@@ -23,4 +23,4 @@ jobs:
             pm2 delete mes-client
             npm i
             npm run build
-            pm2 start npm --name "mes-client" -- run starts
+            pm2 start npm --name "mes-client" -- run start
