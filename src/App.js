@@ -725,10 +725,45 @@ function ProcessTitleNode({
       // 🔥 해당 블록의 정비이력만 제거 (blockIndex 기반)
     const maintenanceKey = `process_${id}_maintenance_${currentTeam}`;
       const existingMaintenance = JSON.parse(localStorage.getItem(maintenanceKey) || '[]');
+      
+      // 삭제될 정비이력들의 장비명 수집
+      const deletedEquipmentNames = existingMaintenance
+        .filter(m => m.blockIndex === index || (m.blockIndex === undefined && index === 0))
+        .map(m => m.eqNo)
+        .filter(Boolean);
+      
       const filteredMaintenance = existingMaintenance.filter(m => 
         m.blockIndex !== index && !(m.blockIndex === undefined && index === 0)
       );
       localStorage.setItem(maintenanceKey, JSON.stringify(filteredMaintenance));
+      
+      // 🔥 해당 장비들의 메모 완전 삭제 (localStorage에서 아예 제거)
+      [...new Set(deletedEquipmentNames)].forEach(eqName => {
+        const matchedEqs = equipments.filter(e => e.name === eqName);
+        matchedEqs.forEach(eq => {
+          const memoKey = `equipment_${eq.id}_memo_${currentTeam}`;
+          localStorage.removeItem(memoKey); // 아예 삭제
+          console.log(`🔥 CLEAR: 장비 ${eq.name} 메모 localStorage에서 완전 삭제`);
+        });
+      });
+      
+      // 🔥 equipments 상태 업데이트 (메모 완전 삭제 반영)
+      if (deletedEquipmentNames.length > 0) {
+        setEquipments(eqs => eqs.map(e => 
+          deletedEquipmentNames.includes(e.name) 
+            ? { ...e, memo: '', memoRefresh: Date.now() } // 완전 강제 새로고침
+            : e
+        ));
+        
+        // 🔥 추가로 전체 equipments 강제 새로고침
+        setTimeout(() => {
+          setEquipments(eqs => eqs.map(e => ({
+            ...e,
+            memo: localStorage.getItem(`equipment_${e.id}_memo_${currentTeam}`) || '',
+            memoRefresh: Date.now()
+          })));
+        }, 100);
+      }
       
       // 🔥 해당 블록의 비가동이력만 제거 (blockIndex 기반)
     const downtimeKey = `process_${id}_downtime_${currentTeam}`;
