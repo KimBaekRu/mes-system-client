@@ -20,7 +20,7 @@ jobs:
           script: |
             cd /home/ubuntu/mes-system
             git pull origin main
-            pm2 kill
+            pm2 delete mes-web
             npm i
             npm run build
-            pm2 start npm --name "react-app" -- run start
+            pm2 start npm --name "mes-web" -- run start
