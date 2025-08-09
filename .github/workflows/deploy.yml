@@ -18,9 +18,9 @@ jobs:
           key: ${{ secrets.INSTANCE_KEY }}
           port: ${{ secrets.INSTANCE_PORT }}
           script: |
-            cd /home/ubuntu/mes-system
+            cd /home/ubuntu/mes-system-client
             git pull origin main
-            pm2 delete mes-web
+            pm2 delete mes-client
             npm i
             npm run build
-            pm2 start npm --name "mes-web" -- run start
+            pm2 start npm --name "mes-client" -- run start
